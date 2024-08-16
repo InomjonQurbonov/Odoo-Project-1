@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+learning_center.access_course_admin,access_course_admin,model_education_course,group_admin,1,1,1,1
+learning_center.access_teacher_admin,access_teacher_admin,model_education_teacher,group_admin,1,1,1,1
+learning_center.access_pupil_admin,access_pupil_admin,model_education_pupil,group_admin,1,1,1,1
+learning_center.access_payment_admin,access_payment_admin,model_education_payment,group_admin,1,1,1,1
+learning_center.access_group_admin,access_group_admin,model_education_group,group_admin,1,1,1,1
+
+learning_center.access_course_administrator,access_course_administrator,model_education_course,group_administrator,1,1,1,0
+learning_center.access_teacher_administrator,access_teacher_administrator,model_education_teacher,group_administrator,1,1,1,0
+learning_center.access_pupil_administrator,access_pupil_administrator,model_education_pupil,group_administrator,1,1,1,0
+learning_center.access_payment_administrator,access_payment_administrator,model_education_payment,group_administrator,1,1,1,0
+learning_center.access_group_administrator,access_group_administrator,model_education_group,group_administrator,1,1,1,0

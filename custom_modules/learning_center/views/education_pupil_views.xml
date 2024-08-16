@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Pupil Tree View -->
+        <record id="view_pupil_tree" model="ir.ui.view">
+            <field name="name">pupil.tree</field>
+            <field name="model">education.pupil</field>
+            <field name="arch" type="xml">
+                <tree string="Pupils">
+                    <field name="name"/>
+                    <field name="birthdate"/>
+                </tree>
+            </field>
+        </record>
+        <!-- Pupil Form View -->
+        <record id="view_pupil_form" model="ir.ui.view">
+            <field name="name">pupil.form</field>
+            <field name="model">education.pupil</field>
+            <field name="arch" type="xml">
+                <form string="Pupil">
+                    <group>
+                        <field name="name"/>
+                        <field name="birthdate"/>
+                        <field name="group_ids"/>
+                        <field name="payment_ids"/>
+                        </group>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

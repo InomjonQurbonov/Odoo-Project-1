@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Group Tree View -->
+        <record id="view_group_tree" model="ir.ui.view">
+            <field name="name">group.tree</field>
+            <field name="model">education.group</field>
+            <field name="arch" type="xml">
+                <tree string="Groups">
+                    <field name="name"/>
+                    <field name="course_id"/>
+                    <field name="teacher_id"/>
+                </tree>
+            </field>
+        </record>
+        <!-- Group Form View -->
+        <record id="view_group_form" model="ir.ui.view">
+            <field name="name">group.form</field>
+            <field name="model">education.group</field>
+            <field name="arch" type="xml">
+                <form string="Group">
+                    <group>
+                        <field name="name"/>
+                        <field name="course_id"/>
+                        <field name="teacher_id"/>
+                        <field name="pupil_ids"/>
+                        <field name="payment_ids"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

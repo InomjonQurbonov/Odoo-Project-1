@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_courses" model="ir.actions.act_window">
+            <field name="name">Courses</field>
+            <field name="res_model">education.course</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="action_teachers" model="ir.actions.act_window">
+            <field name="name">Teachers</field>
+            <field name="res_model">education.teacher</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="action_pupils" model="ir.actions.act_window">
+            <field name="name">Pupils</field>
+            <field name="res_model">education.pupil</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="action_payments" model="ir.actions.act_window">
+            <field name="name">Payments</field>
+            <field name="res_model">education.payment</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="action_groups" model="ir.actions.act_window">
+            <field name="name">Groups</field>
+            <field name="res_model">education.group</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

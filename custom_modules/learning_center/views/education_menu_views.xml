@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_education_root" name="Education"/>
+        <menuitem id="menu_courses" name="Courses" parent="menu_education_root" action="action_courses"/>
+        <menuitem id="menu_teachers" name="Teachers" parent="menu_education_root" action="action_teachers"/>
+        <menuitem id="menu_pupils" name="Pupils" parent="menu_education_root" action="action_pupils"/>
+        <menuitem id="menu_payments" name="Payments" parent="menu_education_root" action="action_payments"/>
+        <menuitem id="menu_groups" name="Groups" parent="menu_education_root" action="action_groups"/>
+    </data>
+</odoo>

@@ -1,0 +1,26 @@
+{
+    "name": "Learning_center",
+    "version": "1.0.0",
+    "sequence": -100,
+    "author": "Inomjon Qurbonov",
+    "website": "https://inomjon_qurbonov.com",
+    "category": "Learning",
+    "summary": "learning center system",
+    "description": "Learning Center System, To control Center Payment, Students, Teachers and other departments related to Learning Center",
+    'depends': [],
+    "data": [
+        "security/security.xml",
+        "security/ir.model.access.csv",
+        'views/education_course_views.xml',
+        'views/education_teacher_views.xml',
+        'views/education_pupil_views.xml',
+        'views/education_payment_views.xml',
+        'views/education_group_views.xml',
+        'views/actions.xml',
+        'views/education_menu_views.xml',
+    ],
+    "installable": True,
+    "auto_install": False,
+    "application": True,
+    "license": "LGPL-3"
+}

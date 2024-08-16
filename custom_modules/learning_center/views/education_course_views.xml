@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Course Tree View -->
+        <record id="view_course_tree" model="ir.ui.view">
+            <field name="name">course.tree</field>
+            <field name="model">education.course</field>
+            <field name="arch" type="xml">
+                <tree string="Courses">
+                    <field name="course_title"/>
+                    <field name="description"/>
+                    <field name="teacher_id"/>
+                </tree>
+            </field>
+        </record>
+        <!-- Course Form View -->
+        <record id="view_course_form" model="ir.ui.view">
+            <field name="name">course.form</field>
+            <field name="model">education.course</field>
+            <field name="arch" type="xml">
+                <form string="Course">
+                    <group>
+                        <field name="course_title"/>
+                        <field name="description"/>
+                        <field name="teacher_id"/>
+                        <field name="group_ids"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
